@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App - Settings</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container settings-container">
+        <h1>Settings</h1>
+        <div>
+            <label for="temperature-unit">Temperature Unit:</label>
+            <select id="temperature-unit">
+                <option value="metric">Celsius (°C)</option>
+                <option value="imperial">Fahrenheit (°F)</option>
+            </select>
+        </div>
+        <button id="save-preferences">Save Settings</button>
+        <div class="links">
+            <a href="HomeScreen.html">Home</a>
+            <a href="CurrentWeather.html">Current Weather</a>
+            <a href="WeeklyForecast.html">5-Day Forecast</a>
+        </div>
+        <button id="reset-data" class="reset-button">Reset All Data</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
